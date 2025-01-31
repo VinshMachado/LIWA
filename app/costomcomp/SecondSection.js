@@ -1,9 +1,17 @@
 import React from "react";
 
-const FirstSection = () => {
+const SecondSection = () => {
   return (
     <div className="mt-28">
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20  pr-24 justify-center">
+        {/* Image */}
+        <img
+          src="garment.png"
+          width={300}
+          height={300}
+          className="ml-1 flex justify-center sm:flex-grow"
+          alt="Garment Care"
+        />
         {/* Text Section */}
         <div className="flex flex-col">
           <span className="pb-5 text-slate-600 text-4xl text-center sm:text-start">
@@ -16,18 +24,9 @@ const FirstSection = () => {
             laundry needs, we’ve got you covered with quality and care.
           </p>
         </div>
-
-        {/* Image */}
-        <img
-          src="garment.png"
-          width={300}
-          height={300}
-          className="ml-1 flex justify-center sm:flex-grow"
-          alt="Garment Care"
-        />
       </div>
     </div>
   );
 };
 
-export default FirstSection;
+export default SecondSection;

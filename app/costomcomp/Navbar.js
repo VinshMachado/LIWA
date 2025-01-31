@@ -5,8 +5,9 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className="bg-cyan-500 w-full h-48 flex items-center justify-center text-white font-bold">
-          <h1 className="text-6xl drop-shadow-lg">Liwa </h1>
+        <div className="bg-cyan-500 w-full h-48 flex items-center justify-center text-white font-bold flex-col">
+          <h1 className="text-6xl drop-shadow-lg">Liwa</h1>
+          <p className="pl-20  text-sm">LAUNDRY AND DRY CLEANERS</p>
         </div>
         <div className="flex items-end justify-end sm:pr-10">
           <Link
