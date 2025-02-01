@@ -16,10 +16,10 @@ const service = () => {
   return (
     <div>
       <div className="mt-20">
-        <span className="flex justify-center text-2xl font-bold text-blue-500">
-          Our Services:
+        <span className="flex justify-center text-6xl font-bold text-blue-500">
+          Services
         </span>
-        <div className="flex justify-center ">
+        <div className="flex justify-center items-center">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
             <MdOutlineDryCleaning className="h-36 w-auto" />
             <p className="flex items-center gap-4">

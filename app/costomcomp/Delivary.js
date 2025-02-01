@@ -6,18 +6,19 @@ const Delivary = () => {
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20 pr-24 ">
         {/* Text Section */}
         <div className="flex flex-col">
-          <span className="pb-5 text-4xl text-center sm:text-start drop-shadow-lg font-bold text-pink-400">
-            Delivery
-          </span>
           <p className="text-black text-xl sm:text-3xl drop-shadow-2xl">
-            Experience Laundry Like Never Before <br /> with Free Pickup and
+            Experience Laundry Like Never Before <br />
             Delivery Across <br /> <b>Dubai and Sharjah!</b> All at Affordable
             Prices
           </p>
         </div>
 
         {/* Image */}
-        <img src="/Truck.png" alt="Tagline" className="w-48 h-auto sm:ml-10" />
+        <img
+          src="/Truck.png"
+          alt="Tagline"
+          className="w-28 h-auto sm:ml-10 sm:w-48 pb-10"
+        />
       </div>
     </div>
   );
