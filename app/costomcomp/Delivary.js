@@ -9,7 +9,7 @@ const Delivary = () => {
           <span className="pb-5 text-4xl text-center sm:text-start drop-shadow-lg font-bold text-pink-400">
             Delivery
           </span>
-          <p className="text-black text-3xl drop-shadow-2xl">
+          <p className="text-black text-xl sm:text-3xl drop-shadow-2xl">
             Experience Laundry Like Never Before <br /> with Free Pickup and
             Delivery Across <br /> <b>Dubai and Sharjah!</b> All at Affordable
             Prices
