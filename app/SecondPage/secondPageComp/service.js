@@ -20,7 +20,7 @@ const service = () => {
           Services
         </span>
         <div className="flex justify-center items-center">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <MdOutlineDryCleaning className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:text-5xl font-medium text-pink-400">
@@ -41,7 +41,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="flex justify-center ">
-            <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+            <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
               <GiWashingMachine className="h-36 w-auto" />
               <p className="flex items-center gap-4">
                 <span className="text-2xl sm:text-5xl font-medium text-pink-400">
@@ -66,7 +66,7 @@ const service = () => {
         <div className="flex justify-center ">
           <div className="flex justify-center ">
             <div className="flex justify-center ">
-              <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+              <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
                 <TbIroningSteamFilled className="h-36 w-auto" />
                 <p className="flex items-center gap-4">
                   <span className="text-2xl sm:text-5xl font-medium text-pink-400">
@@ -89,7 +89,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <FaRug className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -110,7 +110,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <GiTheaterCurtains className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -130,7 +130,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <GiSofa className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -151,7 +151,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <FaMattressPillow className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -171,7 +171,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <GiHanger className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -190,7 +190,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <FaUserTie className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -210,7 +210,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <GiRunningShoe className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -230,7 +230,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <GiSchoolBag className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -250,7 +250,7 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-lg shadow-black  duration-300 ease-in-out mt-3 p-5">
             <TbHorseToy className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
