@@ -7,7 +7,7 @@ import Delivary from "./costomcomp/Delivary";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <Tagline />
       <Delivary />
