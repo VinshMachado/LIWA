@@ -16,6 +16,13 @@ const Navbar = () => {
           >
             About Us
           </Link>
+
+          <Link
+            href="/SecondPage"
+            className="pr-3 font-bold text-blue-500  hover:text-blue-700 hover:underline transition duration-300"
+          >
+            Our Services
+          </Link>
           <Link
             href="/#"
             className="pr-3 font-bold text-blue-500 hover:text-blue-700 hover:underline transition duration-300"
