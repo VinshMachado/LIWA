@@ -15,47 +15,50 @@ import { TbHorseToy } from "react-icons/tb";
 const service = () => {
   return (
     <div>
-      <div className="mt-20">
-        <span className="flex justify-center text-2xl font-bold text-blue-500">
-          Our Services:
-        </span>
-        <div className="flex justify-center ">
-          <div className="border-4 border-solid shadow-xl hover:-translate-y-4  duration-300 ease-in-out shadow-pink-400 border-pink-500 w-8/12 rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
-            <p>
-              <MdOutlineDryCleaning size={160} />
-              <span className="text-2xl  font-serif text-pink-500 font-semibold ld ">
-                {" "}
-                1) Dry Cleaning:
-              </span>{" "}
-              <br />
-              <span className="text-xl font-mono text-blue-500  font-medium ">
-                At our laundry service, we ensure your clothes are fresh,
-                pressed, and like new. Our fast, reliable, and eco-friendly
-                service makes laundry day effortless, giving you more free time.
-              </span>
-            </p>
+      <div>
+        <div className="mt-20">
+          <span className="flex justify-center text-2xl font-bold text-blue-500">
+            Our Services:
+          </span>
+          <div className="flex justify-center ">
+            <div className="border-4 border-solid shadow-xl hover:-translate-y-4  duration-300 ease-in-out shadow-pink-400 border-pink-500 w-8/12 rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5">
+              <p>
+                <MdOutlineDryCleaning size={160} />
+                <span className="text-2xl  font-serif text-pink-500 font-semibold ld ">
+                  {" "}
+                  1) Dry Cleaning:
+                </span>{" "}
+                <br />
+                <span className="text-xl font-mono text-blue-500  font-medium ">
+                  At our laundry service, we ensure your clothes are fresh,
+                  pressed, and like new. Our fast, reliable, and eco-friendly
+                  service makes laundry day effortless, giving you more free
+                  time.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      {/*2nd service option*/}
+        {/*2nd service option*/}
 
-      <div className="mt-16">
-        <div className="flex justify-center ">
-          <div className="border-4 border-solid shadow-xl hover:-translate-y-4  duration-300 ease-in-out shadow-pink-400  border-pink-500 w-8/12 rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5 mb-3">
-            <p>
-              <GiWashingMachine size={160} />
-              <span className="text-2xl font-serif text-pink-500 font-semibold  ">
-                {" "}
-                2) Washing Services
-              </span>{" "}
-              <br />
-              <span className="text-xl text-blue-500 font-mono font-medium ">
-                We offer professional washing for all types of clothing and
-                fabrics, from delicate items to everyday wear. Our eco-friendly
-                process ensures freshness and quality every time. Trust us to
-                handle your laundry with care and expertise.
-              </span>
-            </p>
+        <div className="mt-16">
+          <div className="flex justify-center ">
+            <div className="border-4 border-solid shadow-xl hover:-translate-y-4  duration-300 ease-in-out shadow-pink-400  border-pink-500 w-8/12 rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] mt-3 p-5 mb-3">
+              <p>
+                <GiWashingMachine size={160} />
+                <span className="text-2xl font-serif text-pink-500 font-semibold  ">
+                  {" "}
+                  2) Washing Services
+                </span>{" "}
+                <br />
+                <span className="text-xl text-blue-500 font-mono font-medium ">
+                  We offer professional washing for all types of clothing and
+                  fabrics, from delicate items to everyday wear. Our
+                  eco-friendly process ensures freshness and quality every time.
+                  Trust us to handle your laundry with care and expertise.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
