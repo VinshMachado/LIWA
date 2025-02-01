@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Tagline from "./costomcomp/Tagline";
-import Navbar from "./costomcomp/Navbar";
+import Howitworks from "./costomcomp/Howitworks";
+
 import FirstSection from "./costomcomp/FirstSection";
 import SecondSection from "./costomcomp/SecondSection";
 import Delivary from "./costomcomp/Delivary";
@@ -8,10 +9,10 @@ import Delivary from "./costomcomp/Delivary";
 export default function Home() {
   return (
     <div className="bg-white">
-      <Navbar />
       <Tagline />
       <Delivary />
-      <FirstSection />
+
+      <Howitworks />
     </div>
   );
 }
