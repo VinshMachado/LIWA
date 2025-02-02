@@ -15,7 +15,7 @@ import { TbHorseToy } from "react-icons/tb";
 const service = () => {
   return (
     <div>
-      <div className="mt-20 mb-10">
+      <div className="mt-20">
         <span className="flex justify-center drop-shadow-xl shadow-black text-6xl font-bold text-blue-500 m-20">
           Services
         </span>
@@ -248,7 +248,7 @@ const service = () => {
 
       {/*12th service option*/}
 
-      <div className="mt-16">
+      <div className="mt-16 mb-10">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <TbHorseToy className="h-36 w-auto" />
