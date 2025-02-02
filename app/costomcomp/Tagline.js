@@ -12,6 +12,7 @@ const Tagline = () => {
     <div className="relative w-full h-[400px] ">
       <div className=" w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
         <div className="absolute inset-0 bg-gradient-to-t from-transparent  to-white" />
+        ladies dress
         <Carousel
           opts={{ align: "center", loop: true }}
           className="overflow-hidden"
@@ -38,7 +39,7 @@ const Tagline = () => {
                   className="w-full sm:w-80 h-auto object-contain"
                 />
                 <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Comprehensive Wash, Dry, & Press Service per bag
+                  Comprehensive Wash, Dry and fold Service per bag
                 </h1>
               </div>
             </CarouselItem>
@@ -48,8 +49,8 @@ const Tagline = () => {
                   src="/ladies.jpeg"
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Ladies Dress
+                <h1 className="text-lg sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Delicate Dress Cleaning & Steam Pressing
                 </h1>
               </div>
             </CarouselItem>
