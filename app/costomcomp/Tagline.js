@@ -15,18 +15,18 @@ const Tagline = () => {
         <Carousel opts={{ align: "center", loop: true }}>
           <CarouselContent className="gap-4">
             <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-wrap">
+              <div className=" items-center justify-center flex flex-col">
                 <img
                   src="/cloths.png"
                   className="sm:w-auto sm:h-96 w-70 h-56  "
                 />
-                <h1 className="text-4xl font-bold text-pink-500 drop-shadow-xl">
+                <h1 className="text-4xl font-bold text-pink-500 drop-shadow-xl ">
                   Cloths
                 </h1>
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-wrap">
+              <div className=" items-center justify-center flex flex-col">
                 <img
                   src="/pngtree-contemporary-linen-sofa-on-white-studio-background-a-png-image_10294836.png"
                   className="sm:w-96 sm:h-96 h-96 w-96   "
@@ -37,7 +37,7 @@ const Tagline = () => {
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-wrap">
+              <div className=" items-center justify-center flex flex-col">
                 <img
                   src="/matres.png"
                   className=" sm:w-72 h-auto w-36 mt-7  "
