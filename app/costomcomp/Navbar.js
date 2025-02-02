@@ -33,12 +33,6 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link
-            href="/#"
-            className="pr-3 font-bold text-blue-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
-          >
-            Contact
-          </Link>
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@ import { TbHorseToy } from "react-icons/tb";
 const service = () => {
   return (
     <div>
-      <div className="mt-20">
+      <div className="mt-20 mb-10">
         <span className="flex justify-center drop-shadow-xl shadow-black text-6xl font-bold text-blue-500 m-20">
           Services
         </span>
