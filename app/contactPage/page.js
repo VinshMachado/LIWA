@@ -5,9 +5,9 @@ import { FaRegBuilding } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="bg-[#00032A] pb-10 w-11/12 m-4 rounded-lg flex items-center justify-center">
-      <div>
-        <div className="flex flex-col items-center font-medium text-white *:mt-20 text-center">
+    <div className="w-full h-full flex justify-center items-center">
+      <div className="bg-[#00032A] pb-10 w-11/12  h-[700px] m-4 rounded-lg drop-shadow-xl shadow-black ">
+        <div className="flex flex-col items-center font-medium  text-white *:mt-20 text-center">
           <span className="text-lg font-semibold underline text-white">
             Expert Laundry & Dry Cleaning Services
           </span>
@@ -24,7 +24,7 @@ const page = () => {
               <span>Laundry Service</span>
               <span>Dry Cleaning</span>
               <span>Shoe Cleaning</span>
-              <span>Home Cleaning</span>
+
               <span>Ironing</span>
             </div>
           </div>
@@ -60,7 +60,11 @@ const page = () => {
 
               <span className="flex font-medium underline">
                 <FaRegBuilding size={21} className="mr-1 mt-[3px]" /> Al Taawun
-                St - Al Khan - Sharjah - United Arab Emirates
+                Sheikh Zayed road Dubai
+              </span>
+              <span className="flex font-medium underline">
+                <FaRegBuilding size={21} className="mr-1 mt-[3px]" /> Al Taawun
+                Al Tawoon Sharjah
               </span>
             </div>
           </div>

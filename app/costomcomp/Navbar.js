@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className="relative bg-[url('/navbarbg.png')] bg-cover bg-center w-full h-28 flex items-center justify-center text-white font-bold flex-col">
+        <div className="relative bg-[url('/navbarbg.png')] bg-cover bg-center w-full h-20 flex items-center justify-center text-white font-bold flex-col">
           {/* Gradient Layer */}
 
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center border-">
-            <img src="/logo.png" className="h-28 w-auto drop-shadow-lg" />
+            <img src="/logo.png" className="h-20 w-auto drop-shadow-lg" />
           </div>
         </div>
         <div className="flex items-end justify-end sm:pr-10 ">

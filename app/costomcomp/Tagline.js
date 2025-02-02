@@ -13,7 +13,7 @@ const Tagline = () => {
     <div className="relative w-full h-[400px] ">
       <div className=" w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
         <div className="absolute inset-0 bg-gradient-to-t from-transparent  to-white" />
-        ladies dress
+
         <Carousel
           opts={{ align: "center", loop: true }}
           className="overflow-hidden"
