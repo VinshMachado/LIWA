@@ -64,7 +64,7 @@ const Tagline = () => {
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col">
                 <Image
-                  src="/bags.jfif"
+                  src="/bags.jpeg"
                   width={340}
                   height={340}
                   className="w-full sm:w-80 h-auto object-contain"
