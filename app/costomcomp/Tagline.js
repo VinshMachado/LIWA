@@ -10,7 +10,7 @@ import {
 const Tagline = () => {
   return (
     <div className="relative w-full h-[400px] ">
-      <div className="bg-[url('/bgedit.png')] bg-cover bg-center w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
+      <div className=" w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
         <div className="absolute inset-0 bg-gradient-to-t from-transparent  to-white" />
         <Carousel
           opts={{ align: "center", loop: true }}
@@ -33,10 +33,10 @@ const Tagline = () => {
 
             {/* Second Carousel Item */}
             <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col">
+              <div className="items-center justify-center flex flex-col ">
                 <img
-                  src="/sofa.png"
-                  className="w-full sm:w-80 h-auto object-contain"
+                  src="/sofa.jfif"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                   alt="Sofa's"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
@@ -49,7 +49,7 @@ const Tagline = () => {
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col">
                 <img
-                  src="/matres2.png"
+                  src="/carpet.jfif"
                   className="w-full sm:w-80 h-auto object-contain"
                   alt="Mattress"
                 />
@@ -61,7 +61,7 @@ const Tagline = () => {
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col">
                 <img
-                  src="/Toys.png"
+                  src="/toys.png"
                   className="w-full sm:w-80 h-auto object-contain"
                   alt="Mattress"
                 />

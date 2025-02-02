@@ -56,7 +56,7 @@ const Footer = () => {
         <span>+971 52 237 2288</span>
       </div>
 
-      <div className="border-t-2 border-black flex justify-center p-1">
+      <div className=" flex justify-center p-1">
         <FaRegCopyright size={12} className="mt-[5px] ml-2" />
         <span className="pl-1 text-sm">
           Copyright 2025 LIWA Laundry And Dry Cleaners.

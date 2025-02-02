@@ -18,7 +18,7 @@ const Howitworks = () => {
         </h1>
         <div className="w-full flex flex-wrap justify-center items-center">
           {/* Call us */}
-          <div className="w-11/12 sm:w-1/3 h-32 rounded-full flex justify-center items-center  m-10 sm:m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group ">
+          <div className=" bg-white w-11/12 sm:w-1/3 h-32 rounded-full flex justify-center items-center  m-10 sm:m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group ">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <IoIosCall className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -31,7 +31,7 @@ const Howitworks = () => {
           {
             //pick
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center sm:m-10 m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 h-32 bg-white  sm:w-1/3 rounded-full flex justify-center items-center sm:m-10 m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <CiDeliveryTruck className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -44,7 +44,7 @@ const Howitworks = () => {
           {
             //Each item is carefully
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 h-32 bg-white  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <FaMagnifyingGlass className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -60,7 +60,7 @@ const Howitworks = () => {
           {
             //
           }
-          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 h-36 bg-white  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <MdDryCleaning className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -76,7 +76,7 @@ const Howitworks = () => {
           {
             //
           }
-          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 h-36 bg-white  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <TbIroningSteamFilled className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -91,7 +91,7 @@ const Howitworks = () => {
           {
             //quality
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 h-32 bg-white  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <TbListDetails className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
@@ -105,7 +105,7 @@ const Howitworks = () => {
           {
             // deliver
           }
-          <div className="w-11/12   h-36  sm:w-1/3  rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
+          <div className="w-11/12 bg-white  h-36  sm:w-1/3  rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
               <LuPackage2 className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
