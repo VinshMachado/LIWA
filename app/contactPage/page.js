@@ -6,8 +6,8 @@ import { FaRegBuilding } from "react-icons/fa";
 const page = () => {
   return (
     <div className="bg-[#00032A] pb-10">
-      <div className="flex flex-col items-center font-medium text-black *:mt-20 text-center">
-        <span className="text-lg font-semibold underline text-black">
+      <div className="flex flex-col items-center font-medium text-white *:mt-20 text-center">
+        <span className="text-lg font-semibold underline text-white">
           Expert Laundry & Dry Cleaning Services
         </span>
         Affordable, high-quality care with unmatched convenience and efficiency.
@@ -17,8 +17,8 @@ const page = () => {
       <div className="flex justify-evenly">
         <div className="flex flex-col items-center mt-5">
           {/*services */}
-          <h1 className="text-3xl font-bold text-black">Support</h1>
-          <div className="text-blue-00 text-black flex flex-col text-base font-semibold">
+          <h1 className="text-3xl font-bold text-white">Support</h1>
+          <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
             <span>Laundry Service</span>
             <span>Dry Cleaning</span>
             <span>Shoe Cleaning</span>
@@ -28,8 +28,8 @@ const page = () => {
         </div>
         <div className="flex flex-col items-center mt-5">
           {/*services */}
-          <h1 className="text-3xl font-bold text-black">Company</h1>
-          <div className="text-blue-00 text-black flex flex-col text-base font-semibold">
+          <h1 className="text-3xl font-bold text-white">Company</h1>
+          <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
             <span>About</span>
             <span>Contact Us</span>
             <span>Refund Policy</span>
@@ -40,9 +40,9 @@ const page = () => {
       </div>
 
       {/*contact info of shop */}
-      <div className="flex justify-center items-center flex-col mt-10">
+      <div className="flex justify-center items-center flex-col mt-10 text-white">
         <div>
-          <span className="text-xl font-semibold flex justify-center">
+          <span className="text-2xl font-semibold flex justify-center">
             Contact Us
           </span>
           <div className="ml-14">
