@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 const Tagline = () => {
   return (
@@ -20,8 +21,10 @@ const Tagline = () => {
           <CarouselContent className="gap-4 flex-nowrap">
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
-                <img
+                <Image
                   src="/dryclean.jpeg"
+                  width={340}
+                  height={340}
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                   alt="Sofa's"
                 />
@@ -30,89 +33,12 @@ const Tagline = () => {
                 </h1>
               </div>
             </CarouselItem>
-
-            {/* Third Carousel Item */}
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col">
-                <img
-                  src="/bags.jfif"
-                  className="w-full sm:w-80 h-auto object-contain"
-                />
-                <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Comprehensive Wash, Dry and fold Service per bag
-                </h1>
-              </div>
-            </CarouselItem>
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/ladies.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-lg sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Delicate Dress Cleaning & Steam Pressing
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/sofa.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Sofa Shampooing
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/matress.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress cleaning, and refreshment
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/shoe.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress cleaning, and refreshment
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/alter.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Alterations
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
-                  src="/carpet.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Carpet cleaning
-                </h1>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col ">
-                <img
+                <Image
                   src="/pressing.jpeg"
+                  width={340}
+                  height={340}
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
@@ -122,7 +48,104 @@ const Tagline = () => {
             </CarouselItem>
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
-                <img
+                <Image
+                  src="/ladies.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-lg sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Delicate Dress Cleaning & Steam Pressing
+                </h1>
+              </div>
+            </CarouselItem>
+
+            {/* Third Carousel Item */}
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col">
+                <Image
+                  src="/bags.jfif"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain"
+                />
+                <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Comprehensive Wash, Dry and fold Service per bag
+                </h1>
+              </div>
+            </CarouselItem>
+
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  src="/sofa.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Sofa Shampooing
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  src="/matress.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Mattress cleaning, and refreshment
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  src="/shoe.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Mattress cleaning, and refreshment
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  src="/alter.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Alterations
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  src="/carpet.jpeg"
+                  width={340}
+                  height={340}
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Carpet cleaning
+                </h1>
+              </div>
+            </CarouselItem>
+
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <Image
+                  width={340}
+                  height={340}
                   src="/shoeref.jpeg"
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
@@ -133,7 +156,9 @@ const Tagline = () => {
             </CarouselItem>
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
-                <img
+                <Image
+                  width={340}
+                  height={340}
                   src="/steamiron.jpeg"
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
@@ -147,7 +172,6 @@ const Tagline = () => {
       </div>
     </div>
   );
-  matress.png;
 };
 
 export default Tagline;
