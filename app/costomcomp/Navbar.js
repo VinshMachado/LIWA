@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className="relative bg-[url('/tagline.jpeg')] bg-cover bg-center w-full h-48 flex items-center justify-center text-white font-bold flex-col">
+        <div className="relative bg-[url('/navbarbg.png')] bg-cover bg-center w-full h-48 flex items-center justify-center text-white font-bold flex-col">
           {/* Gradient Layer */}
 
           {/* Content */}

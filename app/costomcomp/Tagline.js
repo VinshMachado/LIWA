@@ -12,37 +12,48 @@ const Tagline = () => {
     <div className="relative w-full h-[400px] ">
       <div className="bg-[url('/bgedit.png')] bg-cover bg-center w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
         <div className="absolute inset-0 bg-gradient-to-t from-transparent  to-white" />
-        <Carousel opts={{ align: "center", loop: true }}>
-          <CarouselContent className="gap-4">
-            <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-col">
+        <Carousel
+          opts={{ align: "center", loop: true }}
+          className="overflow-hidden"
+        >
+          <CarouselContent className="gap-4 flex-nowrap">
+            {/* First Carousel Item */}
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col">
                 <img
                   src="/cloths.png"
-                  className="sm:w-auto sm:h-96 w-70 h-56  "
+                  className="w-full sm:w-80 h-auto object-contain"
+                  alt="Cloths"
                 />
-                <h1 className="text-4xl font-bold text-pink-500 drop-shadow-xl ">
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Cloths
                 </h1>
               </div>
             </CarouselItem>
-            <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-col">
+
+            {/* Second Carousel Item */}
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col">
                 <img
-                  src="/pngtree-contemporary-linen-sofa-on-white-studio-background-a-png-image_10294836.png"
-                  className="sm:w-96 sm:h-96 h-96 w-96   "
+                  src="/sofa.png"
+                  className="w-full sm:w-80 h-auto object-contain"
+                  alt="Sofa's"
                 />
-                <h1 className="text-4xl font-bold text-pink-500 drop-shadow-xl">
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Sofa's
                 </h1>
               </div>
             </CarouselItem>
-            <CarouselItem className="flex justify-center">
-              <div className=" items-center justify-center flex flex-col">
+
+            {/* Third Carousel Item */}
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col">
                 <img
-                  src="/matres.png"
-                  className=" sm:w-72 h-auto w-36 mt-7  "
+                  src="/matres2.png"
+                  className="w-full sm:w-80 h-auto object-contain"
+                  alt="Mattress"
                 />
-                <h1 className="text-4xl ml-5 font-bold text-pink-500 drop-shadow-xl">
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Mattress
                 </h1>
               </div>
