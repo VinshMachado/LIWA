@@ -13,7 +13,7 @@ const Navbar = () => {
             <img src="/logo.png" className="h-36 w-auto drop-shadow-lg" />
           </div>
         </div>
-        <div className="flex items-end justify-end sm:pr-10 bg-cyan-50">
+        <div className="flex items-end justify-end sm:pr-10 ">
           <Link
             href="/#"
             className="pr-3 font-bold text-blue-500  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
