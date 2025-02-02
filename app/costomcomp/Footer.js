@@ -45,15 +45,30 @@ const Footer = () => {
       <div className="flex flex-col items-center mt-5">
         {/*location of shop */}
         <h1 className="text-3xl font-bold text-pink-400">Location</h1>
-        <span className="text-xl font-medium ">Dubai</span>
-        <FaLocationDot size={38} />
-        <a
-          href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
-          className="hover:cursor-pointer"
-        >
-          Al Taawun St - Al Khan - Sharjah - United Arab Emirates
-        </a>
-        <span>+971 52 237 2288</span>
+        <div className="flex flex-col justify-center items-center">
+          <div className="m-5 flex flex-col justify-center items-center">
+            <span className="text-xl font-medium ">Dubai</span>
+            <FaLocationDot size={38} />
+            <a
+              href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
+              className="hover:cursor-pointer"
+            >
+              Sheikh Zayed road Dubai
+            </a>
+          </div>
+          <div className="m-5 flex flex-col justify-center items-center">
+            <h1 className="text-xl font-medium ">Sharjah </h1>
+            <FaLocationDot size={38} />
+            <a
+              href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
+              className="hover:cursor-pointer"
+            >
+              Al Tawoon Sharjah
+            </a>
+          </div>
+        </div>
+
+        <span>+971 05299 77188</span>
       </div>
 
       <div className=" flex justify-center p-1">

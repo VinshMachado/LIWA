@@ -2,7 +2,7 @@ import React from "react";
 
 const Delivary = () => {
   return (
-    <div className="mt-28">
+    <div className="mt-28 flex flex-col justify-center items-center">
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20 pr-24 justify-center items-center">
         {/* Text Section */}
         <div className="flex flex-col text-center">
@@ -23,6 +23,11 @@ const Delivary = () => {
           className="w-48 h-auto sm:ml-20  sm:w-48 pb-10 ml-15"
         />
       </div>
+      <a href="https://wa.me/971529977188">
+        <button className="w-56 h-20 rounded-full bg-cyan-500 text-white text-lg font-bold shadow-xl transition duration-300 ease-in-out transform hover:bg-cyan-600 hover:shadow-2xl hover:scale-105 active:scale-95">
+          Schedule Now
+        </button>
+      </a>
     </div>
   );
 };
