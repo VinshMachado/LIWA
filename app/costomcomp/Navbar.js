@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className="bg-[url('/logobg3.jpg')] bg-cover bg-center opacity-75 w-full h-48 flex items-center justify-center text-white font-bold flex-col">
+        <div className="bg-white bg-cover bg-center  w-full h-48 flex items-center justify-center text-white font-bold flex-col">
           <img src="/logo.png" className="h-36 w-auto  drop-shadow-lg" />
         </div>
         <div className="flex items-end justify-end sm:pr-10">

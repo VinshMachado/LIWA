@@ -11,6 +11,7 @@ const Tagline = () => {
   return (
     <div className="relative w-full h-[400px] ">
       <div className="bg-[url('/tagline.jpeg')] bg-cover bg-center w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-white/50 to-pinkk-50" />
         <Carousel opts={{ align: "center", loop: true }}>
           <CarouselContent className="gap-4">
             <CarouselItem className="flex justify-center">
