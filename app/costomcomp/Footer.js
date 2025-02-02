@@ -6,9 +6,9 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-cyan-200">
-      <div className="flex flex-col items-center pt-24">
+      <div className="flex flex-col items-center mt-40">
         {/*quick link section */}
-        <h1 className="text-3xl font-bold text-pink-500">Quick Links</h1>
+        <h1 className="text-3xl font-bold text-pink-400">Quick Links</h1>
         <Link
           href="/#"
           className="pr-3 font-bold text-blue-500  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
@@ -37,18 +37,20 @@ const Footer = () => {
 
       <div className="flex flex-col items-center mt-5">
         {/*services */}
-        <h1 className="text-3xl font-bold text-pink-500">services</h1>
+        <h1 className="text-3xl font-bold text-pink-400">services</h1>
         <div className="text-blue-00 text-blue-500 flex flex-col text-base font-semibold">
-          <span>service 1</span>
-          <span>service 2</span>
-          <span>service 3</span>
-          <span>service 4</span>
+          <Link
+            href="/#"
+            className="pr-3 font-bold text-blue-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
+          >
+            Services
+          </Link>
         </div>
       </div>
 
       <div className="flex flex-col items-center mt-5">
         {/*location of shop */}
-        <h1 className="text-3xl font-bold text-pink-500">shop location</h1>
+        <h1 className="text-3xl font-bold text-pink-400">shop location</h1>
         <span className="text-xl font-medium ">Dubai</span>
         <FaLocationDot size={38} />
         <a

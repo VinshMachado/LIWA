@@ -58,6 +58,18 @@ const Tagline = () => {
                 </h1>
               </div>
             </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col">
+                <img
+                  src="/Toys.png"
+                  className="w-full sm:w-80 h-auto object-contain"
+                  alt="Mattress"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Toys
+                </h1>
+              </div>
+            </CarouselItem>
           </CarouselContent>
         </Carousel>
       </div>
