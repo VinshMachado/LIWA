@@ -7,9 +7,11 @@ const Delivary = () => {
         {/* Text Section */}
         <div className="flex flex-col">
           <p className="text-black text-xl sm:text-3xl drop-shadow-2xl">
-            Experience Laundry Like Never Before <br />
-            Delivery Across <br /> <b>Dubai and Sharjah!</b> All at Affordable
-            Prices
+            <b>Experience Laundry Like Never Before</b>
+            <br />
+            with Free Pickup and Delivery Across <br />
+            <b className="text-pink-600">Dubai and Sharjah</b> <br />
+            All at Affordable Prices!
           </p>
         </div>
 
