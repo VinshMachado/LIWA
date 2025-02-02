@@ -17,30 +17,15 @@ const Tagline = () => {
           className="overflow-hidden"
         >
           <CarouselContent className="gap-4 flex-nowrap">
-            {/* First Carousel Item */}
-            <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col">
-                <img
-                  src="/cloths.png"
-                  className="w-full sm:w-80 h-auto object-contain"
-                  alt="Cloths"
-                />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Cloths
-                </h1>
-              </div>
-            </CarouselItem>
-
-            {/* Second Carousel Item */}
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
                 <img
-                  src="/sofa.jfif"
+                  src="/dryclean.jpeg"
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                   alt="Sofa's"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Sofa's
+                  Dry Clean
                 </h1>
               </div>
             </CarouselItem>
@@ -49,24 +34,110 @@ const Tagline = () => {
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col">
                 <img
-                  src="/carpet.jfif"
+                  src="/bags.jfif"
                   className="w-full sm:w-80 h-auto object-contain"
-                  alt="Mattress"
                 />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress
+                <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Comprehensive Wash, Dry, & Press Service per bag
                 </h1>
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-center w-full">
-              <div className="items-center justify-center flex flex-col">
+              <div className="items-center justify-center flex flex-col ">
                 <img
-                  src="/toys.png"
-                  className="w-full sm:w-80 h-auto object-contain"
-                  alt="Mattress"
+                  src="/ladies.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Toys
+                  Ladies Dress
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/sofa.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Sofa Shampooing
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/matress.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Mattress cleaning, and refreshment
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/shoe.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Mattress cleaning, and refreshment
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/alter.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Alterations
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/carpet.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Carpet cleaning
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/pressing.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Expert Shirt Laundering & Pressing
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/shoeref.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Shoe refreshment
+                </h1>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center w-full">
+              <div className="items-center justify-center flex flex-col ">
+                <img
+                  src="/steamiron.jpeg"
+                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                />
+                <h1 className="text-sm sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                  Ladies' Garment Care & Precision Steam Ironing
                 </h1>
               </div>
             </CarouselItem>

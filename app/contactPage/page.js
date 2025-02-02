@@ -5,61 +5,64 @@ import { FaRegBuilding } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="bg-[#00032A] pb-10 w-11/12 m-10">
-      <div className="flex flex-col items-center font-medium text-white *:mt-20 text-center">
-        <span className="text-lg font-semibold underline text-white">
-          Expert Laundry & Dry Cleaning Services
-        </span>
-        Affordable, high-quality care with unmatched convenience and efficiency.
-        Trust us to handle all your laundry needs with precision and reliability
-      </div>
-
-      <div className="flex justify-evenly">
-        <div className="flex flex-col items-center mt-5">
-          {/*services */}
-          <h1 className="text-3xl font-bold text-white">Support</h1>
-          <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
-            <span>Laundry Service</span>
-            <span>Dry Cleaning</span>
-            <span>Shoe Cleaning</span>
-            <span>Home Cleaning</span>
-            <span>Ironing</span>
-          </div>
-        </div>
-        <div className="flex flex-col items-center mt-5">
-          {/*services */}
-          <h1 className="text-3xl font-bold text-white">Company</h1>
-          <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
-            <span>About</span>
-            <span>Contact Us</span>
-            <span>Refund Policy</span>
-            <span>Franchise</span>
-            <span>FAQs</span>
-          </div>
-        </div>
-      </div>
-
-      {/*contact info of shop */}
-      <div className="flex justify-center items-center flex-col mt-10 text-white">
-        <div>
-          <span className="text-2xl font-semibold flex justify-center">
-            Contact Us
+    <div className="bg-[#00032A] pb-10 w-11/12 m-4 rounded-lg flex items-center justify-center">
+      <div>
+        <div className="flex flex-col items-center font-medium text-white *:mt-20 text-center">
+          <span className="text-lg font-semibold underline text-white">
+            Expert Laundry & Dry Cleaning Services
           </span>
-          <div className="ml-14">
-            <span className="flex font-medium underline pb-2">
-              <CiMail size={21} className="mr-1 mt-[3px]" />{" "}
-              liwadrycleaners@gmail.com
-            </span>
+          Affordable, high-quality care with unmatched convenience and
+          efficiency. Trust us to handle all your laundry needs with precision
+          and reliability
+        </div>
 
-            <span className="flex font-medium underline pb-2">
-              <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 52 237
-              2288
-            </span>
+        <div className="flex justify-evenly">
+          <div className="flex flex-col items-center mt-5">
+            {/*services */}
+            <h1 className="text-3xl font-bold text-white">Support</h1>
+            <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
+              <span>Laundry Service</span>
+              <span>Dry Cleaning</span>
+              <span>Shoe Cleaning</span>
+              <span>Home Cleaning</span>
+              <span>Ironing</span>
+            </div>
+          </div>
+          <div className="flex flex-col items-center mt-5">
+            {/*services */}
+            <h1 className="text-3xl font-bold text-white">Company</h1>
+            <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
+              <span>About</span>
+              <span>Contact Us</span>
+              <span>Refund Policy</span>
+              <span>Franchise</span>
+              <span>FAQs</span>
+            </div>
+          </div>
+        </div>
 
-            <span className="flex font-medium underline">
-              <FaRegBuilding size={21} className="mr-1 mt-[3px]" /> Al Taawun St
-              - Al Khan - Sharjah - United Arab Emirates
+        {/*contact info of shop */}
+        <div className="flex justify-center items-center flex-col mt-10 text-white">
+          <div>
+            <span className="text-2xl font-semibold flex justify-center">
+              Contact Us
             </span>
+            <div className="ml-14">
+              <span className="flex font-medium underline pb-2">
+                <CiMail size={21} className="mr-1 mt-[3px]" />{" "}
+                liwadrycleaners@gmail.com
+              </span>
+
+              <span className="flex font-medium underline pb-2">
+                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 52 237
+                2288
+              </span>
+
+              <span className="flex font-medium underline">
+                <FaRegBuilding size={21} className="mr-1 mt-[3px]" /> Al Taawun
+                St - Al Khan - Sharjah - United Arab Emirates
+              </span>
+            </div>
           </div>
         </div>
       </div>
