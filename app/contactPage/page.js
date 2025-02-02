@@ -54,8 +54,12 @@ const page = () => {
               </span>
 
               <span className="flex font-medium underline pb-2">
-                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 52 237
+                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 052 237
                 2288
+              </span>
+              <span className="flex font-medium underline pb-2">
+                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 05299
+                77188
               </span>
 
               <span className="flex font-medium underline">
