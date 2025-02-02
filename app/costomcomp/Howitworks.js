@@ -10,17 +10,17 @@ import { LuPackage2 } from "react-icons/lu";
 const Howitworks = () => {
   return (
     <>
-      <div className="w-full h-auto  flex  items-center justify-center mt-20 flex-col">
-        <h1 className="text-4xl h-20 sm:text-start drop-shadow-lg w-11/12 sm:w-full flex justify-center sm:rounded-none rounded-full  items-center font-bold bg-pink-200 text-blue-400 ">
+      <div className="w-full h-auto  flex  items-center justify-center mt-20 flex-col ">
+        <h1 className="text-4xl h-20 sm:text-start drop-shadow-lg w-11/12 sm:w-full flex justify-center sm:rounded-none rounded-full   items-center font-bold bg-pink-200 text-blue-400 ">
           <span className=" text-4xl text-center sm:text-start drop-shadow-lg font-bold text-blue-400">
             How It works?
           </span>
         </h1>
         <div className="w-full flex flex-wrap justify-center items-center">
           {/* Call us */}
-          <div className="w-11/12 sm:w-1/3 h-32 rounded-full flex justify-center items-center  m-10 sm:m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 sm:w-1/3 h-32 rounded-full flex justify-center items-center  m-10 sm:m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group ">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <IoIosCall className="text-pink-500 h-16 w-auto" />
+              <IoIosCall className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-lg sm:text-xl text-blue-400 ml-10">
@@ -31,9 +31,9 @@ const Howitworks = () => {
           {
             //pick
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center sm:m-10 m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center sm:m-10 m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <CiDeliveryTruck className="text-pink-500 h-16 w-auto" />
+              <CiDeliveryTruck className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-lg sm:text-xl text-blue-400 ml-10">
@@ -44,9 +44,9 @@ const Howitworks = () => {
           {
             //Each item is carefully
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <FaMagnifyingGlass className="text-pink-500 h-10 w-auto" />
+              <FaMagnifyingGlass className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-sm sm:text-sm text-blue-400 ml-10">
@@ -60,9 +60,9 @@ const Howitworks = () => {
           {
             //
           }
-          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <MdDryCleaning className="text-pink-500 h-10 w-auto" />
+              <MdDryCleaning className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-sm sm:text-sm text-blue-400 ml-10">
@@ -76,9 +76,9 @@ const Howitworks = () => {
           {
             //
           }
-          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 h-36  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <TbIroningSteamFilled className="text-pink-500 h-10 w-auto" />
+              <TbIroningSteamFilled className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-sm  text-blue-400 ml-10">
@@ -91,9 +91,9 @@ const Howitworks = () => {
           {
             //quality
           }
-          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12 h-32  sm:w-1/3 rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <TbListDetails className="text-pink-500 h-16 w-auto" />
+              <TbListDetails className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-sm sm:text-xl text-blue-400 ml-10">
@@ -105,9 +105,9 @@ const Howitworks = () => {
           {
             // deliver
           }
-          <div className="w-11/12   h-36  sm:w-1/3  rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg">
+          <div className="w-11/12   h-36  sm:w-1/3  rounded-full flex justify-center items-center m-10 shadow-blue-100 shadow-lg  hover:-translate-y-3 duration-300 group">
             <div className="h-28 w-28 bg-white flex justify-center items-center rounded-full ml-10">
-              <LuPackage2 className="text-pink-500 h-10 w-auto" />
+              <LuPackage2 className="text-pink-500 h-10 w-auto group-hover:scale-110 duration-300" />
             </div>
 
             <h2 className="mr-10 text-sm  text-blue-400 ml-10">
