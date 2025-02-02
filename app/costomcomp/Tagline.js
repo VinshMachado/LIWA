@@ -41,7 +41,7 @@ const Tagline = () => {
                   height={340}
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
-                <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
+                <h1 className="text-sm sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Expert Shirt Laundering & Pressing
                 </h1>
               </div>
