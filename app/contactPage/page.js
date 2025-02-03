@@ -11,7 +11,7 @@ const page = () => {
     <div className="w-full h-full flex justify-center items-center p-5">
       <div className="bg-cyan-300 pb-10 sm:w-3/4  w-[97%] h-[700px] rounded-lg drop-shadow-xl shadow-black ">
         <div className="flex flex-col items-center font-medium drop-shadow-lg   text-white  text-center">
-          <span className="text-2xl font-semibold underline text-white mt-4">
+          <span className="text-4xl font-semibold  text-white mt-5">
             Expert Laundry & Dry Cleaning Services
           </span>
           <p className="w-80 sm:w-96 mt-5 text-sm sm:text-xl">
@@ -24,7 +24,7 @@ const page = () => {
         <div className="flex justify-evenly drop-shadow-lg ">
           <div className="flex flex-col items-center mt-5">
             {/*services */}
-            <h1 className="sm:text-5xl text-2xl font-bold text-white">
+            <h1 className="sm:text-3xl text-2xl font-bold text-white">
               Support
             </h1>
             <div className="text-blue-00 mt-5 text-xl text-white flex flex-col text-base font-semibold">
@@ -37,7 +37,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center mt-5">
             {/*services */}
-            <h1 className="sm:text-5xl text-2xl font-bold text-white">
+            <h1 className="sm:text-3xl text-2xl font-bold text-white">
               Company
             </h1>
             <div className="text-blue-00 text-lg mt-5 text-white flex flex-col text-base font-semibold">

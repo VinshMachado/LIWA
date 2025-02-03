@@ -143,7 +143,7 @@ const Tagline = () => {
                   className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Carpet cleaning
+                  Carpet Cleaning
                 </h1>
               </div>
             </CarouselItem>
@@ -157,7 +157,7 @@ const Tagline = () => {
                   className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Shoe refreshment
+                  Shoe Refreshment
                 </h1>
               </div>
             </CarouselItem>
