@@ -46,7 +46,7 @@ const Tagline = () => {
                   src="/pressing.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-sm sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Expert Shirt Laundering & Pressing
@@ -59,7 +59,7 @@ const Tagline = () => {
                   src="/ladies.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-lg sm:text-2xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Delicate Dress Cleaning & Steam Pressing
@@ -74,7 +74,7 @@ const Tagline = () => {
                   src="/bags.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain"
+                  className="w-full sm:w-[400px] h-auto object-contain"
                 />
                 <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Comprehensive Wash, Dry and Fold Service per bag
@@ -88,7 +88,7 @@ const Tagline = () => {
                   src="/sofa.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Sofa Shampooing
@@ -101,7 +101,7 @@ const Tagline = () => {
                   src="/matress.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Mattress Cleaning and Refreshment
@@ -114,7 +114,7 @@ const Tagline = () => {
                   src="/shoe.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Shoe Cleaning
@@ -127,7 +127,7 @@ const Tagline = () => {
                   src="/alter.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Alterations
@@ -140,7 +140,7 @@ const Tagline = () => {
                   src="/carpet.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Carpet cleaning
@@ -154,7 +154,7 @@ const Tagline = () => {
                   width={340}
                   height={340}
                   src="/shoeref.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Shoe refreshment
@@ -167,7 +167,7 @@ const Tagline = () => {
                   width={340}
                   height={340}
                   src="/steamiron.jpeg"
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-sm sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
                   Ladies' Garment Care & Precision Steam Ironing
