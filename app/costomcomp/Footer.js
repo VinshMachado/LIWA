@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-pink-200">
-      <div className="flex flex-col items-center pt-20">
+      <div className="flex flex-col items-center pt-10">
         {/*quick link section */}
         <h1 className="text-3xl font-bold text-pink-400">Quick Links</h1>
         <Link
