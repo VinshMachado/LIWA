@@ -44,7 +44,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center mt-5">
         {/*location of shop */}
-        <h1 className="text-3xl font-bold text-pink-400">Location</h1>
+        <h1 className="text-3xl font-bold text-pink-400">Locations</h1>
         <div className="flex flex-col justify-center items-center">
           <div className="m-5 flex flex-col justify-center items-center">
             <span className="text-xl font-medium ">Dubai</span>

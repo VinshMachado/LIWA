@@ -2,6 +2,9 @@ import React from "react";
 import { CiMail } from "react-icons/ci";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const page = () => {
   return (
@@ -48,12 +51,33 @@ const page = () => {
         </div>
 
         {/*contact info of shop */}
-        <div className="flex justify-center items-center flex-col mt-10 text-white">
+        <div className="flex justify-center items-center flex-col mt-6 text-white">
           <div>
             <span className="text-2xl font-semibold flex justify-center">
               Contact Us
             </span>
             <div className="ml-14">
+              <span className="flex justify-evenly mr-14 p-1">
+                <a href="https://wa.me/+971522372288">
+                  <FaWhatsappSquare
+                    size={33}
+                    className="hover:scale-110 duration-150"
+                  />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61553585545960">
+                  <FaFacebookSquare
+                    size={33}
+                    className="hover:scale-110 duration-150"
+                  />
+                </a>
+                <a href="https://www.instagram.com/liwalaundry.dubai/profilecard/?igsh=MXR6ZzBlYTl0MmVxOA==">
+                  {" "}
+                  <FaInstagramSquare
+                    size={33}
+                    className="hover:scale-110 duration-150"
+                  />
+                </a>
+              </span>
               <span className="flex font-medium underline pb-2">
                 <CiMail size={21} className="mr-1 mt-[3px]" />{" "}
                 liwadrycleaners@gmail.com
