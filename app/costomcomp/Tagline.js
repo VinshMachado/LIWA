@@ -23,16 +23,16 @@ const Tagline = () => {
               delay: 2500, // Auto-scroll every 3 seconds
             }),
           ]}
-          className="overflow-hidden"
+          className="overflow-hidden bg-white"
         >
-          <CarouselContent className="gap-4 flex-nowrap">
+          <CarouselContent className="gap-4 flex-nowrap ">
             <CarouselItem className="flex justify-center w-full">
               <div className="items-center justify-center flex flex-col ">
                 <Image
                   src="/dryclean.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain mt-2 rounded-sm drop-shadow-lg"
                   alt="Sofa's"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">

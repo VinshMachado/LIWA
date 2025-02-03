@@ -2,7 +2,7 @@ import React from "react";
 
 const Delivary = () => {
   return (
-    <div className="mt-28 flex flex-col justify-center items-center">
+    <div className="mt-28 sm:mt-8 flex flex-col justify-center items-center">
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20 pr-24 justify-center items-center">
         {/* Text Section */}
         <div className="flex flex-col text-center">
