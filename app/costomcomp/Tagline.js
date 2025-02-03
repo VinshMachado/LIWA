@@ -77,7 +77,7 @@ const Tagline = () => {
                   className="w-full sm:w-80 h-auto object-contain"
                 />
                 <h1 className="text-sm sm:text-xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Comprehensive Wash, Dry and fold Service per bag
+                  Comprehensive Wash, Dry and Fold Service per bag
                 </h1>
               </div>
             </CarouselItem>
@@ -104,7 +104,7 @@ const Tagline = () => {
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress cleaning, and refreshment
+                  Mattress Cleaning and Refreshment
                 </h1>
               </div>
             </CarouselItem>
@@ -117,7 +117,7 @@ const Tagline = () => {
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress cleaning, and refreshment
+                  Mattress Cleaning and Refreshment
                 </h1>
               </div>
             </CarouselItem>
