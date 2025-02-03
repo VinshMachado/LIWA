@@ -28,10 +28,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              At our laundry service, we take pride in caring for your clothes,
-              leaving them fresh, pressed, and as good as new. Our fast,
-              reliable, and eco-friendly service makes laundry day effortless,
-              so you can enjoy more free time while we handle the work.
+              Expert cleaning for delicate fabrics and garments that require
+              special care
             </span>
           </div>
         </div>
@@ -40,47 +38,35 @@ const service = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="flex justify-center ">
-            <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-              <GiWashingMachine className="h-36 w-auto" />
-              <p className="flex items-center gap-4">
-                <span className="text-2xl sm:text-5xl font-medium text-pink-400">
-                  Washing Services
-                </span>
-              </p>
-              <span className="text-xl font-normal">
-                We offer professional washing services for all types of clothing
-                and fabrics. Whether it's delicate garments or everyday wear, we
-                ensure your items are cleaned with the utmost care. Our
-                eco-friendly process guarantees freshness and quality every
-                time. Trust us to handle your laundry with precision and
-                expertise.
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
+            <GiWashingMachine className="h-36 w-auto" />
+            <p className="flex items-center gap-4">
+              <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
+                Washing Services
               </span>
-            </div>
+            </p>
+            <span className="text-xl font-normal">
+              Professional washing for all types of clothing and fabrics.
+            </span>
           </div>
         </div>
       </div>
+
       {/*3rd service option*/}
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="flex justify-center ">
-            <div className="flex justify-center ">
-              <div className="drop-shadow-lg w-8/12 flex bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-                <TbIroningSteamFilled className="h-36 w-auto" />
-                <p className="flex items-center gap-4">
-                  <span className="text-2xl sm:text-5xl font-medium text-pink-400">
-                    Steam Ironing
-                  </span>
-                </p>
-                <span className="text-xl font-normal">
-                  Experience fast and efficient steam ironing to remove wrinkles
-                  and refresh your clothes. We ensure your garments look crisp
-                  and polished. Perfect for a smooth, wrinkle-free finish every
-                  time!
-                </span>
-              </div>
-            </div>
+          <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
+            <TbIroningSteamFilled className="h-36 w-auto" />
+            <p className="flex items-center gap-4">
+              <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
+                Steam Ironing
+              </span>
+            </p>
+            <span className="text-xl font-normal">
+              Fast and efficient steam ironing to remove wrinkles and freshen up
+              clothes
+            </span>
           </div>
         </div>
       </div>
@@ -97,10 +83,7 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We offer deep cleaning and effective stain removal for all types
-              of carpets and rugs. Our expert service restores freshness and
-              vibrancy to your floors. Trust us to tackle even the toughest
-              stains!
+              Deep cleaning and stain removal for all types of carpets and rugs
             </span>
           </div>
         </div>
@@ -118,9 +101,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We provide thorough cleaning for curtains, drapes, and blinds,
-              ensuring they’re fresh, dust-free, and looking like new. Our
-              service restores their beauty and extends their lifespan.
+              Thorough cleaning for curtains, drapes, and blinds, ensuring
+              they’re fresh and dust-free
             </span>
           </div>
         </div>
@@ -138,10 +120,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We offer professional upholstery cleaning to maintain the
-              cleanliness and appearance of your sofas and chairs. Our service
-              removes dirt and stains, keeping your furniture looking fresh and
-              vibrant.
+              Upholstery cleaning to maintain the cleanliness and appearance of
+              your sofas and chairs
             </span>
           </div>
         </div>
@@ -159,9 +139,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We provide deep cleaning and refreshing for your mattress,
-              removing dust, allergens, and stains. Our service ensures a
-              cleaner, healthier sleep environment for you.
+              Deep cleaning and refreshing for your mattress to remove dust,
+              allergens, and stains.
             </span>
           </div>
         </div>
@@ -179,9 +158,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We offer professional mending, repairs, and alterations for all
-              your clothing and garments. Our expert service ensures a perfect
-              fit and extends the life of your wardrobe.
+              Professional mending, repairs, and alterations for your clothing
+              and garments
             </span>
           </div>
         </div>
@@ -198,9 +176,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We provide special care cleaning for wedding gowns and bridal wear
-              to preserve their beauty. Our delicate process ensures your dress
-              remains pristine and ready for treasured memories.
+              Special care cleaning for wedding gowns and bridal wear to
+              preserve their beauty.
             </span>
           </div>
         </div>
@@ -218,9 +195,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We offer cleaning, polishing, and restoration services for your
-              shoes to bring them back to life. Our expert care restores their
-              shine and extends their durability
+              Cleaning, polishing, and restoration of shoes to bring them back
+              to life.
             </span>
           </div>
         </div>
@@ -238,9 +214,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We provide cleaning and restoration services for bags, from
-              leather to fabric, keeping them in great shape. Our expert care
-              preserves their quality and extends their lifespan.
+              Cleaning and restoration of bags, from leather to fabric, keeping
+              them in great shape..
             </span>
           </div>
         </div>
@@ -258,9 +233,8 @@ const service = () => {
               </span>
             </p>
             <span className="text-xl font-normal">
-              We provide cleaning and restoration services for bags, from
-              leather to fabric, keeping them in great shape. Our expert care
-              preserves their quality and extends their lifespan.
+              Safe and gentle cleaning of soft toys, ensuring they’re hygienic
+              and kid-friendly
             </span>
           </div>
         </div>
