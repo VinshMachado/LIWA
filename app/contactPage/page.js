@@ -11,7 +11,7 @@ const page = () => {
           <span className="text-2xl font-semibold underline text-white mt-16">
             Expert Laundry & Dry Cleaning Services
           </span>
-          <p className="w-80 mt-5">
+          <p className="w-80 sm:w-96 mt-5 text-sm sm:text-2xl">
             Affordable, high-quality care with unmatched convenience and
             efficiency Trust us to handle all your laundry needs with precision
             and reliability

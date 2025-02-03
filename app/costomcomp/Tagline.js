@@ -117,7 +117,7 @@ const Tagline = () => {
                   className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
-                  Mattress Cleaning and Refreshment
+                  Shoe Cleaning
                 </h1>
               </div>
             </CarouselItem>
