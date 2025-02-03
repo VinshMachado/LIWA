@@ -5,18 +5,20 @@ import { FaRegBuilding } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center">
-      <div className="bg-[#00032A] pb-10 w-11/12  h-[700px] m-4 rounded-lg drop-shadow-xl shadow-black ">
-        <div className="flex flex-col items-center font-medium  text-white *:mt-20 text-center">
-          <span className="text-lg font-semibold underline text-white">
+    <div className="w-full h-full flex justify-center items-center p-5">
+      <div className="bg-cyan-300 pb-10 w-11/12  h-[700px] m-4 rounded-lg drop-shadow-xl shadow-black ">
+        <div className="flex flex-col items-center font-medium drop-shadow-lg   text-white  text-center">
+          <span className="text-2xl font-semibold underline text-white mt-16">
             Expert Laundry & Dry Cleaning Services
           </span>
-          Affordable, high-quality care with unmatched convenience and
-          efficiency. Trust us to handle all your laundry needs with precision
-          and reliability
+          <p className="w-80 mt-5">
+            Affordable, high-quality care with unmatched convenience and
+            efficiency Trust us to handle all your laundry needs with precision
+            and reliability
+          </p>
         </div>
 
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly drop-shadow-lg ">
           <div className="flex flex-col items-center mt-5">
             {/*services */}
             <h1 className="text-3xl font-bold text-white">Support</h1>

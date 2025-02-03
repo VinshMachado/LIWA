@@ -1,4 +1,5 @@
-import React from "react";
+"use cilent";
+import React, { useEffect, useRef } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -7,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import Autoplay from "embla-carousel-autoplay";
 
 const Tagline = () => {
   return (
@@ -16,6 +18,11 @@ const Tagline = () => {
 
         <Carousel
           opts={{ align: "center", loop: true }}
+          plugins={[
+            Autoplay({
+              delay: 2500, // Auto-scroll every 3 seconds
+            }),
+          ]}
           className="overflow-hidden"
         >
           <CarouselContent className="gap-4 flex-nowrap">
@@ -168,6 +175,8 @@ const Tagline = () => {
               </div>
             </CarouselItem>
           </CarouselContent>
+          <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md hidden md:flex" />
+          <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md hidden md:flex" />
         </Carousel>
       </div>
     </div>

@@ -69,6 +69,7 @@ const Footer = () => {
         </div>
 
         <span>+971 05299 77188</span>
+        <span>+971 52 237 2288</span>
       </div>
 
       <div className=" flex justify-center p-1">
