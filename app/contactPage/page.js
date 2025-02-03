@@ -11,7 +11,7 @@ const page = () => {
           <span className="text-2xl font-semibold underline text-white mt-16">
             Expert Laundry & Dry Cleaning Services
           </span>
-          <p className="w-80 sm:w-96 mt-5 text-sm sm:text-2xl">
+          <p className="w-80 sm:w-96 mt-5 text-sm sm:text-xl">
             Affordable, high-quality care with unmatched convenience and
             efficiency Trust us to handle all your laundry needs with precision
             and reliability
@@ -21,8 +21,10 @@ const page = () => {
         <div className="flex justify-evenly drop-shadow-lg ">
           <div className="flex flex-col items-center mt-5">
             {/*services */}
-            <h1 className="text-3xl font-bold text-white">Support</h1>
-            <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
+            <h1 className="sm:text-5xl text-2xl font-bold text-white">
+              Support
+            </h1>
+            <div className="text-blue-00 mt-5 text-xl text-white flex flex-col text-base font-semibold">
               <span>Laundry Service</span>
               <span>Dry Cleaning</span>
               <span>Shoe Cleaning</span>
@@ -32,8 +34,10 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center mt-5">
             {/*services */}
-            <h1 className="text-3xl font-bold text-white">Company</h1>
-            <div className="text-blue-00 text-white flex flex-col text-base font-semibold">
+            <h1 className="sm:text-5xl text-2xl font-bold text-white">
+              Company
+            </h1>
+            <div className="text-blue-00 text-lg mt-5 text-white flex flex-col text-base font-semibold">
               <span>About</span>
               <span>Contact Us</span>
               <span>Refund Policy</span>
