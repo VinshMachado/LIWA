@@ -6,7 +6,7 @@ import { FaRegBuilding } from "react-icons/fa";
 const page = () => {
   return (
     <div className="w-full h-full flex justify-center items-center p-5">
-      <div className="bg-cyan-300 pb-10 w-11/12  h-[700px] m-4 rounded-lg drop-shadow-xl shadow-black ">
+      <div className="bg-cyan-300 pb-10 w-[97%]  h-[700px] m-4 rounded-lg drop-shadow-xl shadow-black ">
         <div className="flex flex-col items-center font-medium drop-shadow-lg   text-white  text-center">
           <span className="text-2xl font-semibold underline text-white mt-16">
             Expert Laundry & Dry Cleaning Services
