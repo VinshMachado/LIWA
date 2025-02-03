@@ -47,33 +47,37 @@ const Footer = () => {
         <h1 className="text-3xl font-bold text-pink-400">Locations</h1>
         <div className="flex flex-col justify-center items-center">
           <div className="m-5 flex flex-col justify-center items-center">
-            <span className="text-xl font-medium ">Dubai</span>
+            <span className="text-xl font-medium text-cyan-500">Dubai</span>
             <FaLocationDot size={38} />
             <a
               href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
               className="hover:cursor-pointer"
             >
-              Sheikh Zayed road Dubai
+              <b className="text-sm">Sheikh Zayed road Dubai</b>
             </a>
           </div>
           <div className="m-5 flex flex-col justify-center items-center">
-            <h1 className="text-xl font-medium ">Sharjah </h1>
+            <h1 className="text-xl font-medium text-cyan-500 ">Sharjah </h1>
             <FaLocationDot size={38} />
             <a
               href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
               className="hover:cursor-pointer"
             >
-              Al Tawoon Sharjah
+              <b className="text-sm">Al Tawoon Sharjah</b>
             </a>
           </div>
         </div>
 
-        <span>+971 05299 77188</span>
-        <span>+971 52 237 2288</span>
+        <span className="text-sm">
+          <b>+971 05299 77188</b>
+        </span>
+        <span className="text-sm">
+          <b>+971 52 237 2288</b>
+        </span>
       </div>
 
-      <div className=" flex justify-center p-1">
-        <FaRegCopyright size={12} className="mt-[5px] ml-2" />
+      <div className=" flex justify-center mt-5 p-1">
+        <FaRegCopyright size={12} className=" ml-2" />
         <span className="pl-1 text-sm">
           Copyright 2025 LIWA Laundry And Dry Cleaners.
         </span>
