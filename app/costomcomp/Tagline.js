@@ -32,7 +32,7 @@ const Tagline = () => {
                   src="/dryclean.jpeg"
                   width={340}
                   height={340}
-                  className="w-full sm:w-80 h-auto object-contain rounded-sm drop-shadow-lg"
+                  className="w-full sm:w-[400px] h-auto object-contain rounded-sm drop-shadow-lg"
                   alt="Sofa's"
                 />
                 <h1 className="text-2xl sm:text-4xl font-bold text-pink-500 drop-shadow-xl mt-4">
