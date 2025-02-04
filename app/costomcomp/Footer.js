@@ -14,7 +14,7 @@ const Footer = () => {
           </h1>
           <Link
             href="/#"
-            className="pr-3 font-bold text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
+            className="pr-3 font-bold text-x text-cyan-400 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
           >
             About Us
           </Link>

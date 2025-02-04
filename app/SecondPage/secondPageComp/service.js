@@ -21,7 +21,7 @@ const service = () => {
         </span>
         <div className="flex justify-center items-center">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4  shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <MdOutlineDryCleaning className="h-36 w-auto" />
+            <img src="/towel.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:text-5xl font-medium text-pink-400">
                 Dry Cleaning
@@ -39,7 +39,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <GiWashingMachine className="h-36 w-auto" />
+            <img src="/washing-machine.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Washing Services
@@ -57,7 +57,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <TbIroningSteamFilled className="h-36 w-auto" />
+            <img src="/iron.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Steam Ironing
@@ -76,7 +76,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <FaRug className="h-36 w-auto" />
+            <img src="/carpet.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Carpet Cleaning
@@ -94,7 +94,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4  shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <GiTheaterCurtains className="h-36 w-auto" />
+            <img src="/curtain.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Curtain Cleaning
@@ -113,7 +113,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <GiSofa className="h-36 w-auto" />
+            <img src="/sofa.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-2xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Sofa Cleaning
@@ -132,7 +132,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex flex-wrap bg-white items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <FaMattressPillow className="h-36 w-auto" />
+            <img src="/pillow.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Mattress Shampooing
@@ -151,7 +151,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex  bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4  shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200  duration-300 ease-in-out mt-3 p-5">
-            <GiHanger className="h-36 w-auto" />
+            <img src="/sewing.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Mending & Alteration Services
@@ -169,7 +169,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <FaUserTie className="h-36 w-auto" />
+            <img src="/husband.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Wedding Clothes Cleaning
@@ -188,7 +188,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <GiRunningShoe className="h-36 w-auto" />
+            <img src="/sneakers.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Shoes Cleaning & Restoration
@@ -207,7 +207,7 @@ const service = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4  shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <GiSchoolBag className="h-36 w-auto" />
+            <img src="/luggage.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Bag Cleaning & Restoration
@@ -226,7 +226,7 @@ const service = () => {
       <div className="mt-16 mb-10">
         <div className="flex justify-center ">
           <div className="drop-shadow-lg w-8/12 flex bg-white flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <TbHorseToy className="h-36 w-auto" />
+            <img src="/toys.gif" className="w-20 h-20" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Soft Toys Cleaning
