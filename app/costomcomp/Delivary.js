@@ -9,7 +9,7 @@ const Delivary = () => {
           <p className="text-black w-full  text-xl sm:text-3xl drop-shadow-2xl">
             <b>Experience Laundry Like Never Before </b>
             with
-            <b> Free Pickup and Delivery </b>
+            <b> FREE PICKUP AND DELIVERY </b>
             Across
             <b className="text-pink-600"> Dubai and Sharjah </b>
             All at Affordable Prices!
