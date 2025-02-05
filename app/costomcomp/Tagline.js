@@ -14,7 +14,7 @@ const Tagline = () => {
   return (
     <div className="relative w-full h-[400px] ">
       <div className=" w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
-        <div className="absolute inset-0 bg-gradient-to-t from-white  to-transparent" />
+        <div className="absolute inset-0 " />
 
         <Carousel
           opts={{ align: "center", loop: true }}
@@ -23,7 +23,7 @@ const Tagline = () => {
               delay: 2500, // Auto-scroll every 3 seconds
             }),
           ]}
-          className="overflow-hidden bg-white"
+          className="overflow-hidden bg-gradient-to-b from-white to-transparent"
         >
           <CarouselContent className="gap-4 flex-nowrap ">
             <CarouselItem className="flex justify-center w-full">
