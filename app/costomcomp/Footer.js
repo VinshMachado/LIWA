@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-gray-800 ">
-      <div className="w-full h-screen bg-[url('/clothbg.jpg')] bg-cover bg-center  shadow-white">
+      <div className="w-full h-screen bg-[url('/clothbg.png')] bg-cover bg-center  shadow-white">
         <div className="flex flex-col items-center pt-10">
           {/*quick link section */}
           <h1 className="text-3xl font-bold text-pink-600 drop-shadow-lg">
