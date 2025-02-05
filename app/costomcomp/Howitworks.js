@@ -12,7 +12,7 @@ const Howitworks = () => {
     <>
       <div className="w-full h-auto  flex  items-center justify-center mt-20 flex-col ">
         <h1 className="text-4xl h-20 sm:text-start drop-shadow-lg w-11/12 sm:w-full flex justify-center sm:rounded-none rounded-full   items-center font-bold bg-pink-200 text-blue-400 ">
-          <span className=" text-4xl text-center sm:text-start drop-shadow-lg font-bold text-blue-400">
+          <span className=" text-4xl text-center sm:text-start drop-shadow-lg font-bold text-blue-600">
             How It works?
           </span>
         </h1>
@@ -23,7 +23,7 @@ const Howitworks = () => {
               <IoIosCall className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
-            <h2 className="mr-10 text-lg sm:text-xl text-blue-400 ml-10">
+            <h2 className="mr-10 text-sm sm:text-sm text-blue-400 ml-10">
               <b>Call us to fix an appointment at your convenience</b>
             </h2>
           </div>
@@ -36,7 +36,7 @@ const Howitworks = () => {
               <CiDeliveryTruck className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
-            <h2 className="mr-10 text-lg sm:text-xl text-blue-400 ml-10">
+            <h2 className="mr-10 text-sm sm:text-sm text-blue-400 ml-10">
               <b>We come to pick up your clothes at the scheduled time</b>
             </h2>
           </div>
@@ -96,7 +96,7 @@ const Howitworks = () => {
               <TbListDetails className="text-pink-500 h-16 w-auto group-hover:scale-110 duration-300" />
             </div>
 
-            <h2 className="mr-10 text-sm sm:text-xl text-blue-400 ml-10">
+            <h2 className="mr-10 text-sm sm:text-sm text-blue-400 ml-10">
               <b>
                 We prioritize quality and attention to detail in all services
               </b>

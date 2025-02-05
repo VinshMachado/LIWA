@@ -5,8 +5,8 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 shadow-2xl">
-      <div className="w-full h-screen bg-[url('/transbg.png')] bg-cover bg-center drop-shadow-2xl shadow-white">
+    <div className="bg-gray-800 ">
+      <div className="w-full h-screen bg-[url('/clothbg.jpg')] bg-cover bg-center  shadow-white">
         <div className="flex flex-col items-center pt-10">
           {/*quick link section */}
           <h1 className="text-3xl font-bold text-pink-600 drop-shadow-lg">
@@ -14,7 +14,7 @@ const Footer = () => {
           </h1>
           <Link
             href="/#"
-            className="pr-3 font-bold text-x text-cyan-400 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
+            className="pr-3 font-bold text-x text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
           >
             About Us
           </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center mt-5">
           {/*services */}
-          <h1 className="text-3xl font-bold text-pink-400">Services</h1>
+          <h1 className="text-3xl font-bold text-pink-600">Services</h1>
           <div className="text-blue-00 text-blue-500 flex flex-col text-base font-semibold">
             <Link
               href="/#"
@@ -47,10 +47,12 @@ const Footer = () => {
 
         <div className="flex flex-col items-center mt-5">
           {/*location of shop */}
-          <h1 className="text-3xl font-bold text-pink-400">Locations</h1>
+          <h1 className="text-3xl font-bold text-pink-600">Locations</h1>
           <div className="flex flex-col justify-center items-center">
             <div className="m-5 flex flex-col justify-center items-center">
-              <span className="text-xl font-medium text-cyan-500">Dubai</span>
+              <span className="text-xl font-medium mb-3 rounded-full text-cyan-500 drop-shadow-2xl w-24 flex justify-center items-center h-7 bg-green-200 shadow-white">
+                Dubai
+              </span>
               <FaLocationDot size={38} />
               <a
                 href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"
@@ -60,7 +62,9 @@ const Footer = () => {
               </a>
             </div>
             <div className="m-5 flex flex-col justify-center items-center">
-              <h1 className="text-xl font-medium text-cyan-500 ">Sharjah </h1>
+              <h1 className="text-xl font-medium mb-3 rounded-full text-cyan-500 drop-shadow-2xl w-24 flex justify-center items-center h-8 bg-green-200 shadow-white">
+                Sharjah{" "}
+              </h1>
               <FaLocationDot size={38} />
               <a
                 href="https://www.google.com/maps/place/LIWA+LAUNDRY+AND+DRY+CLEANERS/@25.3113617,55.3761561,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5b0fb49dde55:0x50d691ad12ad2f70!8m2!3d25.3113617!4d55.3761561!16s%2Fg%2F11nmrdmcws?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"

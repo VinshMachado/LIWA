@@ -18,7 +18,7 @@ const Delivary = () => {
 
         {/* Image */}
         <img
-          src="/van.jpeg"
+          src="/van.png"
           alt="Tagline"
           className="w-48 h-auto sm:ml-20  sm:w-48 pb-10 ml-15"
         />

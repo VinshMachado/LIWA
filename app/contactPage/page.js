@@ -9,7 +9,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 const page = () => {
   return (
     <div className="w-full h-full flex justify-center items-center p-5">
-      <div className="bg-cyan-300 pb-10 sm:w-3/4  w-[97%] h-[700px] rounded-lg drop-shadow-xl shadow-black ">
+      <div className="bg-cyan-950 pb-10 sm:w-3/4  w-[97%] h-[700px] rounded-lg drop-shadow-xl shadow-black ">
         <div className="flex flex-col items-center font-medium drop-shadow-lg   text-white  text-center">
           <span className="sm:text-4xl text-xl font-semibold  text-white mt-5">
             Expert Laundry & Dry Cleaning Services

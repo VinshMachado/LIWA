@@ -6,7 +6,7 @@ import Delivary from "./costomcomp/Delivary";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/bgedit.png')] bg-cover bg-center">
+    <div className="bg-[url('/mummy.jpg')] bg-cover bg-center">
       <Tagline />
       <Delivary />
 
