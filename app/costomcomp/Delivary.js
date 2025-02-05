@@ -6,7 +6,7 @@ const Delivary = () => {
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20 pr-24 justify-center items-center">
         {/* Text Section */}
         <div className="flex flex-col text-center">
-          <p className="text-black w-full  text-xl sm:text-3xl drop-shadow-2xl">
+          <p className="text-black w-full  text-xl sm:text-2xl sm:mt-4 md:3xl drop-shadow-2xl">
             <b>Experience Laundry Like Never Before </b>
             with
             <b> FREE PICKUP AND DELIVERY </b>
