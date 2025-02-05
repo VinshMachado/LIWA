@@ -23,7 +23,7 @@ const Tagline = () => {
               delay: 2500, // Auto-scroll every 3 seconds
             }),
           ]}
-          className="overflow-hidden bg-gradient-to-b from-white to-transparent"
+          className="overflow-hidden bg-white"
         >
           <CarouselContent className="gap-4 flex-nowrap ">
             <CarouselItem className="flex justify-center w-full">
