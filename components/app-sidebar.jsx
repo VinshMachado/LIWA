@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Calendar,
   Home,
@@ -7,6 +8,7 @@ import {
   HeartHandshake,
   BookCheck,
   Phone,
+  HomeIcon,
 } from "lucide-react";
 
 import {
@@ -25,39 +27,47 @@ const items = [
   {
     title: "Home",
     url: "/",
-    icon: Home,
+    icon: (props) => <Home {...props} />,
   },
   {
     title: "Our Services",
     url: "/SecondPage",
-    icon: BookCheck,
+    icon: (props) => <BookCheck {...props} />,
   },
   {
     title: "Why Choose Us",
     url: "/whyChoseUs",
-    icon: HeartHandshake,
+    icon: (props) => <HeartHandshake {...props} />,
   },
   {
     title: "Contact Us",
     url: "/contactPage",
-    icon: Phone,
+    icon: (props) => <Phone {...props} />,
   },
 ];
 
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarContent>
+      <SidebarContent className="bg-cyan-100">
         <SidebarGroup>
-          <SidebarGroupLabel>Dashboard</SidebarGroupLabel>
-          <SidebarGroupContent>
+          <SidebarGroupLabel>
+            <b className="text-3xl drop-shadow-lg text-pink-500">Dashboard</b>
+          </SidebarGroupLabel>
+          <SidebarGroupContent className="mt-10">
             <SidebarMenu>
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild>
-                    <a href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
+                  <SidebarMenuButton asChild className="w-full h-12 bg-cyan-50">
+                    <a href={item.url} className="flex items-center gap-2">
+                      <div className=" w-8 h-8 mr-5">
+                        {React.createElement(item.icon, {
+                          className: "w-10 h-10 text-cyan-700",
+                        })}
+                      </div>
+                      <span className="font-bold text-cyan-500">
+                        {item.title}
+                      </span>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
