@@ -93,7 +93,7 @@ const page = () => {
               </span>
 
               <span className="flex font-medium underline">
-                <FaRegBuilding size={21} className="mr-1 mt-[3px]" /> Al Taawun
+                <FaRegBuilding size={21} className="mr-1 mt-[3px]" />
                 Sheikh Zayed road Dubai
               </span>
               <span className="flex font-medium underline">
