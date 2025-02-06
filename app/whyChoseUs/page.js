@@ -147,7 +147,7 @@ const page = () => {
       <div className="mt-16">
         <div className="flex justify-center ">
           <div className="w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
-            <img src="reliability.gif" className="h-36 w-auto" />
+            <img src="virtual-assistant.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
                 Specialized Services{" "}
