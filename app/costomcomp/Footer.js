@@ -14,31 +14,37 @@ const Footer = () => {
           </h1>
           <Link
             href="/#"
-            className="pr-3 font-bold text-x text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
+            className="pr-3 font-bold text-xl text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition duration-300 hover:-translate-y-1 "
           >
             About Us
           </Link>
           <Link
             href="/SecondPage"
-            className="pr-3 font-bold text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
+            className="pr-3 font-bold text-xl text-cyan-500 drop-shadow-md  hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
           >
             Our Services
           </Link>
           <Link
             href="/contactPage"
-            className="pr-3 font-bold text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
+            className="pr-3 font-bold text-xl text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
           >
             Contact
+          </Link>
+          <Link
+            href="/contactPage"
+            className="pr-3 font-bold text-xl text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
+          >
+            Why Choose Us
           </Link>
         </div>
 
         <div className="flex flex-col items-center mt-5">
           {/*services */}
           <h1 className="text-3xl font-bold text-pink-600">Services</h1>
-          <div className="text-blue-00 text-blue-500 flex flex-col text-base font-semibold">
+          <div className="text-blue-00 text-blue-500 flex flex-col  font-semibold">
             <Link
               href="/#"
-              className="pr-3 font-bold text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
+              className="pr-3 text-2xl font-bold text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
             >
               Services
             </Link>
