@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="mb-10">
+        <div className="bg-[url('/servicesbg.jpg')] bg-cover bgm center mb-10">
       <div className="mt-16">
         <span className="text-3xl font-bold flex justify-center text-blue-500">
           Why Choose Us?
