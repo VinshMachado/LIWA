@@ -6,12 +6,13 @@ const Navbar = () => {
   return (
     <>
       <div className="mb-3">
-        <div className="relative bg-[url('/navbarbg.png')] bg-cover bg-center  w-full h-20 items-center justify-center text-white font-bold flex">
-          {/* Gradient Layer */}
+        <div className="relative bg-[url('/navbarbg.png')] bg-cover bg-center w-full h-20 flex items-center justify-between text-white font-bold px-4">
+          {/* Sidebar Trigger */}
           <SidebarTrigger className="h-20 w-20 font-bold text-black sm:ml-8" />
-          {/* Content */}
-          <div className="relative z-10 flex  w-full justify-center items-center mr-8 sm:mr-0">
-            <img src="/logo.png" className="h-20 w-auto drop-shadow-lg" />
+
+          {/* Centered Logo */}
+          <div className="absolute left-1/2 transform -translate-x-1/2">
+            <img src="/logo.png" className="h-16 w-auto drop-shadow-lg" />
           </div>
         </div>
         <div className="flex items-end justify-end sm:pr-10 ">

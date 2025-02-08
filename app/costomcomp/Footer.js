@@ -31,7 +31,7 @@ const Footer = () => {
             Contact
           </Link>
           <Link
-            href="/contactPage"
+            href="/whyChoseUs"
             className="pr-3 font-bold text-xl text-cyan-500 hover:text-blue-700 hover:underline transition hover:-translate-y-1  duration-300"
           >
             Why Choose Us
