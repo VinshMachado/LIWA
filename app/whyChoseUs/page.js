@@ -8,7 +8,7 @@ const page = () => {
           Why Choose Us?
         </span>
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className="bg-white w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="money.gif" className="h-36 w-auto " />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -26,7 +26,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className="w-8/12 flex flex-wrap items-center founder-conductor bg-white sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="verified.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -44,7 +44,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="mentorship.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -61,7 +61,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="helpdesk.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -79,7 +79,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="delivery-truck.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -96,7 +96,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="best-price.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -112,7 +112,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4  bg-white shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="feedback.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -129,7 +129,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className=" w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="reliability.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
@@ -146,7 +146,7 @@ const page = () => {
 
       <div className="mt-16">
         <div className="flex justify-center ">
-          <div className="w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
+          <div className="w-8/12 flex flex-wrap items-center rounded-xl sm:h-[400px] md:h-[390px] bg-white lg:h-[320px] hover:-translate-y-4   shadow-gray-400 shadow-sm  hover:shadow-lg  hover:shadow-cyan-200   duration-300 ease-in-out mt-3 p-5">
             <img src="virtual-assistant.gif" className="h-36 w-auto" />
             <p className="flex items-center gap-4">
               <span className="text-xl sm:ml-3 sm:text-5xl font-medium text-pink-400">
