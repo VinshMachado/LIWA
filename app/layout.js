@@ -35,6 +35,7 @@ export default function RootLayout({ children }) {
           content="Premium laundry and dry cleaning services in Dubai. Free pickup & delivery!"
         />
         <meta name="robots" content="index, follow" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
