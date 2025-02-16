@@ -9,6 +9,7 @@ export default function Home() {
     <div className="bg-[url('/mummy.jpg')] bg-cover bg-center">
       <Head>
         <title>Professional Laundry services with affordable prices!</title>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
         <meta
           name="description"
           content="Liwa Laundry and Dry Cleaners offers premium laundry and dry cleaning services in Dubai. Quick service,free pick up and delivery at affordable rates!"
