@@ -1,12 +1,33 @@
 import React from "react";
 
 const Delivary = () => {
+  function gtag_report_conversion(url) {
+    if (typeof window.gtag !== "function") {
+      console.error("gtag is not defined yet.");
+      window.location.href = url; // Fallback navigation
+      return;
+    }
+
+    var callback = function () {
+      if (url) {
+        window.location.href = url;
+      }
+    };
+
+    window.gtag("event", "conversion", {
+      send_to: "AW-16693202554/9I6MCMXdk58aEPqc-Jc-",
+      event_callback: callback,
+    });
+
+    return false;
+  }
+
   return (
     <div className="mt-28 sm:mt-8 flex flex-col justify-center items-center">
       <div className="flex flex-col sm:flex-row sm:pl-24 pl-20 pr-24 justify-center items-center">
         {/* Text Section */}
         <div className="flex flex-col text-center">
-          <p className="text-black w-full  text-xl sm:text-2xl sm:mt-4 md:3xl drop-shadow-2xl">
+          <p className="text-black w-full text-xl sm:text-2xl sm:mt-4 md:3xl drop-shadow-2xl">
             <b>Experience Laundry Like Never Before </b>
             with
             <b> FREE PICKUP AND DELIVERY </b>
@@ -20,11 +41,14 @@ const Delivary = () => {
         <img
           src="/van.png"
           alt="Tagline"
-          className="w-48 h-auto sm:ml-20  sm:w-48 pb-10 ml-15"
+          className="w-48 h-auto sm:ml-20 sm:w-48 pb-10 ml-15"
         />
       </div>
       <a href="https://wa.me/+971522372288">
-        <button className="w-56 h-20 rounded-full bg-cyan-500 text-white text-lg font-bold shadow-xl transition duration-300 ease-in-out transform hover:bg-cyan-600 hover:shadow-2xl hover:scale-105 active:scale-95">
+        <button
+          onClick={() => gtag_report_conversion("https://wa.me/+971522372288")}
+          className="w-56 h-20 rounded-full bg-cyan-500 text-white text-lg font-bold shadow-xl transition duration-300 ease-in-out transform hover:bg-cyan-600 hover:shadow-2xl hover:scale-105 active:scale-95"
+        >
           Schedule Now
         </button>
       </a>
