@@ -15,7 +15,9 @@ const Tagline = () => {
     <div className="relative w-full h-[400px] ">
       <div className=" w-full h-full  absolute inset-0 flex items-center justify-center flex-wrap ">
         <div className="absolute inset-0 " />
-
+        <h1 className="text-white">
+          Professional Laundry services with affordable prices!
+        </h1>
         <Carousel
           opts={{ align: "center", loop: true }}
           plugins={[
