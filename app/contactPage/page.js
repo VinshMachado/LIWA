@@ -84,12 +84,12 @@ const page = () => {
               </span>
 
               <span className="flex font-medium underline pb-2">
-                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 052 237
-                2288
+                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" />
+                <a href="tel:+971 52 2372288">+971 52 2372288</a>
               </span>
               <span className="flex font-medium underline pb-2">
-                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" /> +971 05299
-                77188
+                <FaPhoneAlt size={21} className="mr-1 mt-[3px]" />
+                <a href="tel:+971 52 9977188"> +971 52 9977188</a>
               </span>
 
               <span className="flex font-medium underline">

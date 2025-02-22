@@ -82,10 +82,15 @@ const Footer = () => {
           </div>
 
           <span className="text-sm">
-            <b>+971 05299 77188</b>
+            <b>
+              {" "}
+              <a href="tel:+971 52 2372288">+971 52 2372288</a>
+            </b>
           </span>
           <span className="text-sm">
-            <b>+971 52 237 2288</b>
+            <b>
+              <a href="tel:+971 52 9977188"> +971 52 9977188</a>
+            </b>
           </span>
         </div>
 
